@@ -7,11 +7,8 @@ using UnityEngine;
 public class FPSInput : MonoBehaviour
 {
     private CharacterController charController;
-    private bool isJumping = false;
-    private bool isFlying = false;
 
     public float Speed = 6.0f;
-    public float JumpStrength = 10.0f;
     public float Gravity = -9.8f;
 
     private void Start()
